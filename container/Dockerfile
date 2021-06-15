@@ -1,5 +1,5 @@
 FROM centos:latest
-LABEL maintainer="AllMyCats"
+LABEL maintainer="weeralalith"
 RUN yum -y install httpd
 COPY index.html /var/www/html/
 COPY containerandcat*.jpg /var/www/html/
